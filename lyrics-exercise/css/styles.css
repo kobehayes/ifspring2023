@@ -34,6 +34,11 @@ pre{
     text-align: center;
     background:#E6BCC9;
     padding:1em;
+    margin: 0em;
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space: normal;
    
 }
 p{
