@@ -1,0 +1,38 @@
+html{
+background-color: #FFC4BD;
+margin: 5rem;
+}
+
+section{
+    width:auto;
+    margin-bottom: 5rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    font-family: 'Crimson Text';
+    font-size: 60px;
+    margin-inline: 5rem;
+} 
+h2{
+    font-family:Helvetica, sans-serif;
+    font-weight:lighter;
+    color:#3b6f69;
+    font-size:30px;
+}
+p{
+    font-family: 'Crimson Text';
+    font-size: 48px;
+    margin-top:0;
+    margin-bottom:0.5em;
+    margin-inline: 5rem;
+}
+code{
+    display:block;
+    font-size:20px;
+    color:#d75c4e;
+    background-color:#ffdfdb;
+    padding: 0.8rem;
+    width:30rem;
+}
+
