@@ -1,0 +1,36 @@
+body{
+width:90%;
+max-width:800px;
+text-align: center;
+}
+@media(min-width: 640px){
+    html{
+    background-color: #eaf6ff;
+    }
+    h1{
+        font-size:2.5rem;
+    }
+}
+
+@media(max-width:500px){
+    h1{
+        font-size:1.5rem;
+    }
+}
+
+aside{
+    width:170px;
+    margin:10px;
+    font-size:0.8rem;
+}
+ul {
+    display: grid;
+    vertical-align: top;
+}
+/* li{
+    bullets
+}
+
+ul{
+
+} */
