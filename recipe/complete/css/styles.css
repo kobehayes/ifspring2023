@@ -4,20 +4,32 @@ body {
             margin-top:100px;
             margin-bottom:0px;
             margin-left: 100px;
+         
             padding:0;
             color: #467468;
+            
 		}
-  
-        @media  screen and (min-width: 360px) {
+    section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin:10px;
+      
+     }
+        @media  screen and (max-width: 400px) {
+          body{
+            margin:10%;
+            
+          }
             section {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              gap: 30px;
-              margin:10px;
+              display:block;
+              
+             
+              margin:10%;
               
              }
           }
-  
+         
   
   h1 {
     font-family: 'Abril Fatface', serif;
@@ -79,7 +91,7 @@ body {
 
   img {
     display: block;
-    margin: 20px;
+    margin: auto;
     border-radius: 10px;
     text-align: center;
     min-width: 50%;
@@ -96,7 +108,7 @@ body {
         color:#fff5eb;
         padding: 80px;
         width: 100%;
-        margin:0px;
+        margin-left:-100px;
     }
 
   
